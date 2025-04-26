@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="packet">
+    <div class="screen" id="screen"></div>
+    <div class="theKeys"> <!--container of the key button-->
+      <ul class="fourKeys"> <!--a row of four keys-->
+        <li><input type="button" class="aKey" id="7" onclick="clickedNum(7)" value="7" /></li>
+        <li><input type="button" class="aKey" id="8" onclick="clickedNum(8)" value="8" /></li>
+        <li><input type="button" class="aKey" id="9" onclick="clickedNum(9)" value="9" /></li>
+        <li><input type="button" class="aKey" id="sumOp" onclick="equationSet('+')" value="+" /></li>
+      </ul>
+      <ul class="fourKeys"> <!--a row of four keys-->
+        <li><input type="button" class="aKey" id="4" onclick="clickedNum(4)" value="4" /></li>
+        <li><input type="button" class="aKey" id="5" onclick="clickedNum(5)" value="5" /></li>
+        <li><input type="button" class="aKey" id="6" onclick="clickedNum(6)" value="6" /></li>
+        <li><input type="button" class="aKey" id="minusOp" onclick="equationSet('-')" value="-" /></li>
+      </ul>
+      <ul class="fourKeys"> <!--a row of four keys-->
+        <li><input type="button" class="aKey" id="1" onclick="clickedNum(1)" value="1" /></li>
+        <li><input type="button" class="aKey" id="2" onclick="clickedNum(2)" value="2" /></li>
+        <li><input type="button" class="aKey" id="3" onclick="clickedNum(3)" value="3" /></li>
+        <li><input type="button" class="aKey" id="multOp" onclick="equationSet('x')" value="x" /></li>
+      </ul>
+      <ul class="fourKeys"> <!--a row of four keys-->
+        <li><input type="button" class="aKey" id="clear" onclick="clearScreen()" value="clear" /></li>
+        <li><input type="button" class="aKey" id="0" onclick="clickedNum(0)" value="0" /></li>
+        <li><input type="button" class="aKey" id="=" onclick="resultCal()" value="=" /></li>
+        <li><input type="button" class="aKey" id="divOp" onclick="equationSet('/')" value="/" /></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

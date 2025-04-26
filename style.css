@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.packet {
+  border: 5px solid black;
+  border-radius: 45px;
+  width: 400px;
+  height: 768px;
+  margin: 70px auto;
+}
+
+.screen {
+  border: 3px solid black;
+  border-radius: 45px;
+  width: 306px;
+  height: 233px;
+  margin: 64px auto;
+  font-size: 150%;
+  text-align: right;
+  padding: 15px;
+}
+
+.theKeys {
+  padding: 0px;
+}
+
+.fourKeys {
+  display: flex;
+  margin: 0px;
+  padding: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.aKey {
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  margin: 0 16px;
+}
